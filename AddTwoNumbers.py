@@ -36,7 +36,7 @@ class Solution:
             if l2 != None:
                 l2 = l2.next
 
-        if carry == 1:
+        if carry > 0:
             temp = ListNode(1)
             current.next = temp
 
