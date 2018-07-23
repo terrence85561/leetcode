@@ -9,7 +9,7 @@ class Solution:
         counter = count
         result = []
         leng = len(s)
-        pos = 0
+        
         text = ''
         if leng <= numRows or not s or numRows == 1:
             return s
