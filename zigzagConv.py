@@ -9,8 +9,8 @@ class Solution:
         counter = count
         result = []
         leng = len(s)
+
         
-        text = ''
         if leng <= numRows or not s or numRows == 1:
             return s
         for i in range(0,numRows):
