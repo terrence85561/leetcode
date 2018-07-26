@@ -16,7 +16,7 @@ class Solution:
                     if p[j-2] != s[i-1] and p[j-2] != '.':
                         dp[i][j] = dp[i][j-2]
                     else:
-                        dp[i][j] = (dp[i][j-2] or dp[i][j-1] or dp[i-1][j])
+                        dp[i][j] = dp[i][j-2] or dp[i][j-1] or dp[i-1][j]
 
         return dp[sLen][pLen]
 
