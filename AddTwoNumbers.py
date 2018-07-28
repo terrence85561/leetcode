@@ -1,3 +1,11 @@
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+# Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+# Output: 7 -> 0 -> 8
+# Explanation: 342 + 465 = 807.
 class Solution:
     def addTwoNumbers(self, l1, l2):
         """
@@ -5,39 +13,24 @@ class Solution:
         :type l2: ListNode
         :rtype: ListNode
         """
-        carry = 0
-        begin = ListNode(0)
-        current = begin
+        dummyhead = ListNode(0)
+        temp1 = l1
+        temp2 = l2
+        current = dummyhead
+        sum = 0
+        while(temp1 != None or temp2 != None):
+            if temp1 != None:
+                sum += temp1.val
+                temp1 = temp1.next
+            if temp2 != None:
+                sum += temp2.val
+                temp2 = temp2.next
 
-
-        while l1 != None or l2 != None:
-            if l1 != None:
-                first = l1.val
-            else:
-                first = 0
-            if l2 != None:
-                second = l2.val
-            else:
-                second = 0
-
-            sums = first + second + carry
-            if sums >= 10:
-                carry = 1
-            else:
-                carry = 0
-
-            result = sums%10
-
-            current.next = ListNode(result)
+            current.next = ListNode(sum%10)
+            sum //= 10
             current = current.next
 
-            if l1 != None:
-                l1 = l1.next
-            if l2 != None:
-                l2 = l2.next
+        if sum == 1:
+            current.next = ListNode(1)
 
-        if carry > 0:
-            temp = ListNode(1)
-            current.next = temp
-
-        return begin.next
+        return dummyhead.next
