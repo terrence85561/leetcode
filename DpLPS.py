@@ -6,29 +6,39 @@ class Solution:
         :type s: str
         :rtype: str
         """
-        startIdx = 0
+        begin = 0
         resLength = 1
         strLength = len(s)
         dp = np.zeros((strLength,strLength),dtype = bool)
-        if not s or strLength == 1:
+        if not s or strLength == 0:
             return s
 
-        for i in range (0,strLength):
+        # one char palindrome
+        for i in range(0,strLength):
             dp[i,i] = True
-        for i in range(0,strLength - 1):
+
+        # two chars palindrome
+        for i in range(0,strLength-1):
             if s[i] == s[i+1]:
-                dp[i,i+1] = True
-                startIdx = i
+                dp[i,i+1]=True
                 resLength = 2
-        for i in range (3,strLength + 1):
-            for j in range(0,strLength - i + 1):
+                begin = i
+
+        # more than 3 chars palindrome
+        for i in range(3,strLength+1):
+            #traverse s
+            for j in range(0,strLength-i+1):
+                # compared index k
                 k = j + i - 1
                 if s[j] == s[k] and dp[j+1,k-1]:
                     dp[j,k] = True
-                    if i >resLength:
-                        startIdx = j
+                    if i > resLength:
+                        begin = j
                         resLength = i
-        return s[startIdx:resLength + startIdx]
+
+        return s[begin:resLength + begin]
+
+
 
 
 
