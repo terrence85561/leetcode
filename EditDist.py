@@ -4,6 +4,7 @@ class Solution:
         :type word1: str
         :type word2: str
         :rtype: int
+        leetcode : 72 edit distance
         """
         #solve with DP
         w1Len = len(word1)

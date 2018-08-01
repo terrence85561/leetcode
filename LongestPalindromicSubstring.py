@@ -4,7 +4,9 @@ class Solution:
         """
         :type s: str
         :rtype: str
+        leetcode : 5 longestPalindromeSubstring navie
         """
+
         aList = []
         resLength = 0
         strLength = len(s)

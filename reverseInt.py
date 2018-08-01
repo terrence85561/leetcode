@@ -3,6 +3,7 @@ class Solution:
         """
         :type x: int
         :rtype: int
+        leetcode : 7 reverse int
         """
         result = 0
         flag = False

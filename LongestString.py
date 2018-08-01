@@ -4,6 +4,7 @@ class Solution:
         :type s: str
         :rtype: int
 
+        leetcode: 3 lengthOfLongestSubstring
         """
 
         dict = {}

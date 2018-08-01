@@ -3,6 +3,7 @@ class Solution:
         """
         :type x: int
         :rtype: bool
+        leetcode : 9 palindrome number
         """
         flag = False
         if x < 0:

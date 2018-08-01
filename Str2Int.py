@@ -4,6 +4,7 @@ class Solution:
         """
         :type str: str
         :rtype: int
+        leetcode: 8
         """
         text = ''
         ptn = r"^ *[\+\-]?\d+"

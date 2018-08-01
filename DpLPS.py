@@ -5,6 +5,7 @@ class Solution:
         """
         :type s: str
         :rtype: str
+        leetcode: 5 longestPalindromeSubstring DP version
         """
         begin = 0
         resLength = 1

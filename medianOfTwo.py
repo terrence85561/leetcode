@@ -4,6 +4,7 @@ class Solution:
         :type nums1: List[int]
         :type nums2: List[int]
         :rtype: float
+        leetcode: 4 findMedianSortedArrays
         """
         alist = []
         idx1, idx2 = 0,0
@@ -24,7 +25,7 @@ class Solution:
         mid = length // 2
         sums = alist[mid] + alist[~mid]
         median = sums/2
-        
+
         return median
 
 

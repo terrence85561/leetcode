@@ -4,13 +4,14 @@ class Solution:
         :type s: str
         :type numRows: int
         :rtype: str
+        leetcode" 6
         """
         count = 2*numRows-2
         counter = count
         result = []
         leng = len(s)
 
-        
+
         if leng <= numRows or not s or numRows == 1:
             return s
         for i in range(0,numRows):

@@ -4,6 +4,7 @@ class Solution:
         :type nums: List[int]
         :type target: int
         :rtype: List[int]
+        leetcode : 1 Two Sums
         """
 
         dict = {}
@@ -11,4 +12,3 @@ class Solution:
             if (target - nums[i]) in dict:
                 return(dict[target - nums[i]],i)
             dict[nums[i]] = i
-        
