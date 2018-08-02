@@ -6,11 +6,12 @@ class Solution:
         leetcode: 516. Longest Palindromic Subsequence
         """
 
-        
+
         strLength = len(s)
-        dp = [[0 for i in range(strLength)]for j in range(strLength)]
-        for i in range(strLength):
-            dp[i][i] = 1
+        if not s or strLength == 0:
+            return 0
+        dp = [[1 for i in range(strLength)]for j in range(strLength)]
+
         for i in range(2,strLength + 1):
             for j in range(0,strLength - i + 1):
                 lsIdx = i + j - 1
