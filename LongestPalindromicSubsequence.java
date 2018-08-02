@@ -7,9 +7,7 @@ class Solution {
         }
         int [][]dp = new int [strLength][strLength];
         for (int i = 0; i < strLength; i++){
-            for(int j = 0; j < strLength; j++){
-                dp[i][j] = 1;
-            }
+            dp[i][i] = 1;
         }
         for(int i = 2; i <= strLength; i++ ){
             for(int j = 0;j <= strLength - i; j++){
