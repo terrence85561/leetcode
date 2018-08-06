@@ -5,6 +5,7 @@ class Solution:
         :type nums2: List[int]
         :rtype: float
         leetcode: 4 findMedianSortedArrays
+        O(m)
         """
         alist = []
         idx1, idx2 = 0,0
