@@ -11,6 +11,8 @@ class Solution:
         :type root: TreeNode
         :rtype: int
         leetcode 543
+        time complexity O(n)
+        space complexity O(h)
         """
     #     if root is None:
     #         return 0
