@@ -14,19 +14,14 @@ class Solution:
         :rtype: bool
         leetcode 110
         """
-        self._result = True #private var
-        self.maxDepth(root)
-
-        return self._result
-
-    def maxDepth(self,root):
-        if root is None:
-            return 0
-        maxLeft = self.maxDepth(root.left)
-        maxRight = self.maxDepth(root.right)
-        if (abs(maxLeft - maxRight) > 1):
-
-            self._result = False 
-
-
-        return max(maxLeft,maxRight)+1
+        self.res = True #global var
+        def maxDepth(root):
+            if root is None:
+                return 0
+            left = maxDepth(root.left)
+            right = maxDepth(root.right)
+            if abs(left-right)>1:
+                self.res = False
+            return max(left,right)+1
+        maxDepth(root)
+        return self.res
