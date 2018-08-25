@@ -27,3 +27,18 @@ class Solution:
         '''
         dfs w/o recursion
         '''
+        if root is None:
+            return False
+        stack = [(root,sum)]
+        while stack:
+            node,val = stack.pop()
+            if node:
+                if not node.left and not node.right and node.val == val:
+                    return True
+
+                stack.append((node.right,val - node.val))
+                stack.append((node.left,val - node.val))
+
+            else:
+                continue
+        return False
