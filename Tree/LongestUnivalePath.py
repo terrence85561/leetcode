@@ -13,7 +13,7 @@ class Solution:
         :rtype: int
         687. Longest Univalue Path
         """
-        # define output value 
+        # define output value
         self.res = 0
 
         #define a helper function: for each node, return the longestUnivaluePath when the node is root
@@ -40,6 +40,7 @@ class Solution:
             self.res = max(self.res,Lcount+Rcount)
 
             # return the longest univalue path between left&right subtree
+            # Since we need to get the longest one to connect with the parent node
             return max(Lcount,Rcount)
 
         helper(root)
