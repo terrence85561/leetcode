@@ -13,23 +13,35 @@ class Solution:
         :rtype: int
         687. Longest Univalue Path
         """
-        #Edge case
-        if not root:
-            return 0
-        #process
-        def helper(root):
-            count = 0
+        # define output value 
+        self.res = 0
 
+        #define a helper function: for each node, return the longestUnivaluePath when the node is root
+        def helper(root):
+            #edge case:
             if not root:
                 return 0
+            #process:
+            #left,right get the longestUP from left node and right node
+            left = helper(root.left)
+            right = helper(root.right)
+
+            #define variable to store the length of UP
+            Lcount = 0
+            Rcount = 0
+
+            #if the root of left/right subtree is equal to the current node
             if root.left and root.left.val == root.val:
-                count += 1
-                count += helper(root.left)
+                Lcount = left + 1
             if root.right and root.right.val == root.val:
-                count += 1
-                count += helper(root.right)
-            return count
+                Rcount = right + 1
 
+            #update the output value
+            self.res = max(self.res,Lcount+Rcount)
 
-        #recursion
-        return max(max(helper(root),self.longestUnivaluePath(root.left)), self.longestUnivaluePath(root.right))
+            # return the longest univalue path between left&right subtree
+            return max(Lcount,Rcount)
+
+        helper(root)
+
+        return self.res
