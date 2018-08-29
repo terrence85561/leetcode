@@ -12,7 +12,10 @@ class Solution:
         :type sum: int
         :rtype: int
         leetcode: 437
+        pathSum 遍历所有node
+        dfs 对于每个node 找pathSum number
         """
+
         #edge case:
         if root is None:
             return 0
