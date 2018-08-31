@@ -1,11 +1,26 @@
 class Solution:
-    def isSubtree(self, s, t):
+    def isSubtree(self,s,t):
+        '''
+        
+        '''
+        def convert(node):
+            if not node:
+                return "null"
+            else:
+                return "." + str(node.val) + "," + convert(node.left) + convert(node.right)
+        return convert(t) in convert(s)
+
+
+
+
+
+
+
+    def isSubtree1(self, s, t):
         """
         :type s: TreeNode
         :type t: TreeNode
         :rtype: bool
-        leetcode 572
-        
         """
 
         # 先遍历Tree s中的所有节点 然后对于每一个节点 比较它的subTree与Tree t是否一样
