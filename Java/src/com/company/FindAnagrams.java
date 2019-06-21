@@ -30,8 +30,17 @@ public class FindAnagrams {
 
         for(int i = 0; i < sArr.length; i++){
             hash[sArr[i] - 'a']--;
-            if(hash[sArr[i]]==0) count++;
-            
+            if(hash[sArr[i]-'a']>=0) count++;
+            if(i > pLength-1){
+                hash[sArr[l]-'a']++;
+                if(hash[sArr[l]-'a']>0){
+                    count--;
+                }
+                l++;
+            }
+            if(count == pLength){
+                result.add(l);
+            }
         }
 
 
@@ -40,6 +49,7 @@ public class FindAnagrams {
     public static void main(String[] args) {
 	// write your code here
        FindAnagrams F = new FindAnagrams();
-       F.findAnagrams("a","b");
+       List<Integer> res = F.findAnagrams("cbaebabacd","abc");
+       System.out.println(res);
     }
 }
