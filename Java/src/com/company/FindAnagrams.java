@@ -12,39 +12,38 @@ sliding window
 public class FindAnagrams {
     public List<Integer> findAnagrams(String s, String p) {
 
-        List<Integer> result = new ArrayList<>();
-
-        if(s==null||p==null||s.length()<p.length()) return result;
-
+        //corner case
+        if(s==null||p==null||s.length()<p.length()) return new ArrayList<>();
+        // hash
+        int[] hash = new int[26];
         char[] sArr = s.toCharArray();
         char[] pArr = p.toCharArray();
-        int[] hash = new int[26];
-
-        for(int i = 0; i < pArr.length; i++){
-            hash[pArr[i] - 'a']++;
+        for (char c : p.toCharArray()){
+            // store the frequency of each char in p
+            hash[c - 'a']++;
         }
 
-        int pLength = p.length();
+        // sliding window
+        List<Integer> result = new ArrayList<>();
         int l = 0;
-        int count = 0;
-
+        int counter = 0;
         for(int i = 0; i < sArr.length; i++){
             hash[sArr[i] - 'a']--;
-            if(hash[sArr[i]-'a']>=0) count++;
-            if(i > pLength-1){
-                hash[sArr[l]-'a']++;
-                if(hash[sArr[l]-'a']>0){
-                    count--;
+            if(hash[sArr[i] - 'a']>=0) counter++;
+            if(i > pArr.length - 1){
+                hash[sArr[l] - 'a']++;
+                if(hash[sArr[l] - 'a'] > 0){
+                    counter--;
                 }
                 l++;
             }
-            if(count == pLength){
-                result.add(l);
-            }
+            if(counter==pArr.length) result.add(l);
         }
 
 
+        // return result
         return result;
+
     }
     public static void main(String[] args) {
 	// write your code here
