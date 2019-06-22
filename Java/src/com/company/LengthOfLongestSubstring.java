@@ -52,7 +52,9 @@ public class LengthOfLongestSubstring {
         }
         return maxCount;
     }
-        public static void main(String[] args) {
+
+
+    public static void main(String[] args) {
         LengthOfLongestSubstring L = new LengthOfLongestSubstring();
         String s = "abcabcbb";
         int res = L.lengthOfLongestSubstringWithHashMap(s);
