@@ -1,6 +1,5 @@
-package com.company;
+package com.company.SlidingWindow;
 
-import java.awt.desktop.SystemEventListener;
 import java.util.ArrayList;
 import java.util.List;
 

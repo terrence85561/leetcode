@@ -1,4 +1,4 @@
-package com.company;
+package com.company.SlidingWindow;
 
 public class CheckInclusion {
     public boolean checkInclusion(String s1, String s2) {
