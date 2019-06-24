@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ebc9736-f50e-4e14-b580-cfd1aa0d9c18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/TwoPointer/IsPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TwoPointer/IsPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SlidingWindow/CharacterReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SlidingWindow/CharacterReplacement.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,20 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/SlidingWindow/CharacterReplacement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="288">
+              <caret line="23" column="67" lean-forward="true" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/TwoPointer/IsPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="345">
+              <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -108,8 +108,8 @@
         <option value="$PROJECT_DIR$/src/com/company/SlidingWindow/CheckInclusion.java" />
         <option value="$PROJECT_DIR$/src/com/company/SlidingWindow/LengthOfLongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/com/company/SlidingWindow/MinWindow.java" />
-        <option value="$PROJECT_DIR$/src/com/company/SlidingWindow/CharacterReplacement.java" />
         <option value="$PROJECT_DIR$/src/com/company/TwoPointer/IsPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/com/company/SlidingWindow/CharacterReplacement.java" />
       </list>
     </option>
   </component>
@@ -343,17 +343,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/SlidingWindow/CharacterReplacement.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/TwoPointer/IsPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="345">
+          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/TwoPointer/IsPalindrome.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/SlidingWindow/CharacterReplacement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="288">
+          <caret line="23" column="67" lean-forward="true" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
         </state>
       </provider>
     </entry>

@@ -3,6 +3,7 @@ package com.company.SlidingWindow;
     leetcode 424
     sliding window
     two ptrs
+    右指针 - 左指针 + 1 - 重复最多的字母的个数 --> 需要替换的字母个数
  */
 public class CharacterReplacement {
     public int characterReplacement(String s, int k) {
