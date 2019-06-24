@@ -10,7 +10,7 @@ import java.util.List;
     Time: n^2
     need sort first, but sort() only take nlogn, which is not affects time complexity n^2
  */
-public class ThreeSum {
+public class LC15_ThreeSum {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         // corner case
@@ -45,7 +45,7 @@ public class ThreeSum {
     }
 
     public static void main(String[] args) {
-        ThreeSum T = new ThreeSum();
+        LC15_ThreeSum T = new LC15_ThreeSum();
         int[] nums = {-1, 0, 1, 2, -1, -4};
         List<List<Integer>> res = T.threeSum(nums);
         System.out.println(res);

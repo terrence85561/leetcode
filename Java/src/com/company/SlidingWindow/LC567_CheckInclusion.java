@@ -1,6 +1,6 @@
 package com.company.SlidingWindow;
 
-public class CheckInclusion {
+public class LC567_CheckInclusion {
     public boolean checkInclusion(String s1, String s2) {
         // leetcode 567 hash sliding window
         // corner case
@@ -39,7 +39,7 @@ public class CheckInclusion {
     }
 
     public static void main(String[] args) {
-        CheckInclusion C = new CheckInclusion();
+        LC567_CheckInclusion C = new LC567_CheckInclusion();
         String s1 = "abb";
         String s2 = "eidbacabbooo";
         System.out.println(C.checkInclusion(s1, s2));

@@ -3,7 +3,7 @@ package com.company.SlidingWindow;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LengthOfLongestSubstring {
+public class LC3_LengthOfLongestSubstring {
     /*
     leetcode 3
     sliding window
@@ -55,7 +55,7 @@ public class LengthOfLongestSubstring {
 
 
     public static void main(String[] args) {
-        LengthOfLongestSubstring L = new LengthOfLongestSubstring();
+        LC3_LengthOfLongestSubstring L = new LC3_LengthOfLongestSubstring();
         String s = "abcabcbb";
         int res = L.lengthOfLongestSubstringWithHashMap(s);
         System.out.println(res);

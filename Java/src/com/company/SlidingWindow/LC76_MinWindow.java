@@ -2,7 +2,7 @@ package com.company.SlidingWindow;
 /*
 leetcode 76 sliding window; two ptr; hash table; string; hard;
  */
-public class MinWindow {
+public class LC76_MinWindow {
     public String minWindow(String s, String t){
 
         // corner case
@@ -46,7 +46,7 @@ public class MinWindow {
     }
 
     public static void main(String[] args) {
-        MinWindow M = new MinWindow();
+        LC76_MinWindow M = new LC76_MinWindow();
         String s = "ABECODEBANAC";
         String t = "ABC";
         System.out.println(M.minWindow(s, t));

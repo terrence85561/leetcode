@@ -8,7 +8,7 @@ leetcode 438
 hashtable
 sliding window
  */
-public class FindAnagrams {
+public class LC438_FindAnagrams {
     public List<Integer> findAnagrams(String s, String p) {
 
         //corner case
@@ -46,7 +46,7 @@ public class FindAnagrams {
     }
     public static void main(String[] args) {
 	// write your code here
-       FindAnagrams F = new FindAnagrams();
+       LC438_FindAnagrams F = new LC438_FindAnagrams();
        List<Integer> res = F.findAnagrams("cbaebabacd","abc");
        System.out.println(res);
     }

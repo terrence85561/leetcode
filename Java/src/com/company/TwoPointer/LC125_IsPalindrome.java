@@ -3,7 +3,7 @@ package com.company.TwoPointer;
   leetcode 125
   two pointer
  */
-public class IsPalindrome {
+public class LC125_IsPalindrome {
     public boolean isPalindrome(String s) {
         if(s.length()==0 || s==null) return true;
         int sLength = s.length();
@@ -21,7 +21,7 @@ public class IsPalindrome {
     }
 
     public static void main(String[] args) {
-        IsPalindrome p = new IsPalindrome();
+        LC125_IsPalindrome p = new LC125_IsPalindrome();
         String s = "A an, a plan, a canal: Panama";
         boolean res = p.isPalindrome(s);
         System.out.println(res);

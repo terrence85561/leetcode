@@ -5,7 +5,7 @@ package com.company.SlidingWindow;
     two ptrs
     右指针 - 左指针 + 1 - 重复最多的字母的个数 --> 需要替换的字母个数
  */
-public class CharacterReplacement {
+public class LC424_CharacterReplacement {
     public int characterReplacement(String s, int k) {
 
         char[] sArr = s.toCharArray();
@@ -37,7 +37,7 @@ public class CharacterReplacement {
     public static void main(String[] args) {
         String s = "AABABBA";
         int k = 1;
-        CharacterReplacement C = new CharacterReplacement();
+        LC424_CharacterReplacement C = new LC424_CharacterReplacement();
         int res = C.characterReplacement(s, k);
         System.out.println(res);
     }
