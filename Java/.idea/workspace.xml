@@ -35,11 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/TwoPointer/LC11_MaxArea.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="360">
+              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/TwoPointer/LC844_BackSpace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -81,6 +90,7 @@
         <option value="$PROJECT_DIR$/src/com/company/SlidingWindow/LC76_MinWindow.java" />
         <option value="$PROJECT_DIR$/src/com/company/TwoPointer/LC16_ThreeSumClosest.java" />
         <option value="$PROJECT_DIR$/src/com/company/TwoPointer/LC11_MaxArea.java" />
+        <option value="$PROJECT_DIR$/src/com/company/TwoPointer/LC844_BackSpace.java" />
       </list>
     </option>
   </component>
@@ -151,22 +161,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC11_MaxArea">
+  <component name="RunManager" selected="Application.LC844_BackSpace">
     <configuration name="LC11_MaxArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.TwoPointer.LC11_MaxArea" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.TwoPointer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LC125_IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.TwoPointer.LC125_IsPalindrome" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -217,20 +214,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LC844_BackSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.TwoPointer.LC844_BackSpace" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.TwoPointer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.LC3_LengthOfLongestSubstring" />
-      <item itemvalue="Application.LC125_IsPalindrome" />
       <item itemvalue="Application.LC15_ThreeSum" />
       <item itemvalue="Application.LC16_ThreeSumClosest" />
       <item itemvalue="Application.LC11_MaxArea" />
+      <item itemvalue="Application.LC844_BackSpace" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC844_BackSpace" />
         <item itemvalue="Application.LC11_MaxArea" />
         <item itemvalue="Application.LC16_ThreeSumClosest" />
         <item itemvalue="Application.LC3_LengthOfLongestSubstring" />
         <item itemvalue="Application.LC15_ThreeSum" />
-        <item itemvalue="Application.LC125_IsPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -354,8 +364,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/TwoPointer/LC11_MaxArea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        <state relative-caret-position="360">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/TwoPointer/LC844_BackSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
         </state>
       </provider>
     </entry>
