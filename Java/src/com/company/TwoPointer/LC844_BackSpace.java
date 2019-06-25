@@ -10,7 +10,7 @@ import java.util.Stack;
     Space : O(1)?
  */
 public class LC844_BackSpace {
-    
+
     public boolean backspaceCompare(String S, String T){
 
         int si = S.length()-1;
@@ -60,6 +60,51 @@ public class LC844_BackSpace {
 
     }
 
+    public boolean backspaceCompare1(String S, String T){
+        /*
+            dont have to scan all char
+         */
+        int si = S.length()-1;
+        int ti = T.length()-1;
+
+        while(si>=0 || ti>=0){
+            si = getPtr(S, si);
+            ti = getPtr(T, ti);
+            char tChar, sChar;
+            if(ti>=0){
+                tChar = T.charAt(ti);
+            }else{
+                tChar = '@';
+            }
+            if(si>=0){
+                sChar = S.charAt(si);
+            }else{
+                sChar = '@';
+            }
+
+            if(sChar!=tChar) return false;
+            si--;
+            ti--;
+        }
+        return true;
+    }
+
+    private int getPtr(String S, int i){
+
+        int sBack = 0;
+
+        while(i>=0){
+            if(S.charAt(i)=='#'){
+                sBack++;
+                i--;
+            }else  if(sBack==0) break;
+            else{
+                sBack--;
+                i--;
+            }
+        }
+        return i;
+    }
 
 
 
@@ -95,9 +140,9 @@ public class LC844_BackSpace {
 
     public static void main(String[] args) {
         LC844_BackSpace B = new LC844_BackSpace();
-        String s = "ab#";
+        String s = "ab##";
         String t = "c#d#";
-        boolean res = B.backspaceCompare(s, t);
+        boolean res = B.backspaceCompare1(s, t);
         System.out.println(res);
     }
 }
