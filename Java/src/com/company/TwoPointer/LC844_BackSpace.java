@@ -63,6 +63,7 @@ public class LC844_BackSpace {
     public boolean backspaceCompare1(String S, String T){
         /*
             dont have to scan all char
+            fastest
          */
         int si = S.length()-1;
         int ti = T.length()-1;
