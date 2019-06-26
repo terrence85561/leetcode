@@ -35,10 +35,10 @@ public class LC141_LinkedListCycle {
 
         while(fast != null && fast.next != null){
             fast = fast.next.next;
+            slow = slow.next;
 
             if(slow == fast) return true;
 
-            slow = slow.next;
 
         }
 
