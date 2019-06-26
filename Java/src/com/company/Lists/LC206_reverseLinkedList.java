@@ -1,10 +1,16 @@
 package com.company.Lists;
+
+import java.util.List;
+
 /*
     lc206
     reverse linked list
  */
 public class LC206_reverseLinkedList {
     public ListNode reverseList(ListNode head) {
+        /*
+            iteration method
+         */
         ListNode prev = null;
         while(head != null){
             ListNode curNode = head;
@@ -16,6 +22,24 @@ public class LC206_reverseLinkedList {
 
 
 
+    }
+
+    public ListNode reverseListRecur(ListNode head) {
+        /*
+            recursive method
+            nice video : https://www.youtube.com/watch?v=O0By4Zq0OFc
+         */
+
+        // base case
+        if (head == null) return null;
+        if (head.next == null) return head;
+
+        ListNode reversedListHead = reverseList(head.next);
+        ListNode curNode = head.next;
+        curNode.next = head;
+        head.next = null;
+
+        return reversedListHead;
     }
 
     public static void main(String[] args) {
