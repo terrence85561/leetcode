@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ebc9736-f50e-4e14-b580-cfd1aa0d9c18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lists/LC206_reverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lists/LC206_reverseLinkedList.java" afterDir="false" />
-    </list>
+    <list default="true" id="0ebc9736-f50e-4e14-b580-cfd1aa0d9c18" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Lists/LC206_reverseLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+            <state relative-caret-position="107">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Lists/LC141_LinkedListCycle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -103,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/com/company/Lists/LC2_addTwoNumber.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lists/LC445_addTwoNumberII.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lists/LC206_reverseLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Lists/LC141_LinkedListCycle.java" />
       </list>
     </option>
   </component>
@@ -414,8 +422,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Lists/LC206_reverseLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+        <state relative-caret-position="107">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Lists/LC141_LinkedListCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="19" />
         </state>
       </provider>
     </entry>
