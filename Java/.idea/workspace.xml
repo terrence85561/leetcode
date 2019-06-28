@@ -80,11 +80,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Lists/LC24_swapPairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="42">
+              <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Search/LC17_letterCombinations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/com/company/Lists/LC21_mergeTwoLists.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lists/LC234_palindromLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lists/LC24_swapPairs.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Search/LC17_letterCombinations.java" />
       </list>
     </option>
   </component>
@@ -189,7 +202,7 @@
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC2_addTwoNumber">
+  <component name="RunManager" selected="Application.LC17_letterCombinations">
     <configuration name="LC11_MaxArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.TwoPointer.LC11_MaxArea" />
       <module name="Java" />
@@ -241,12 +254,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC16_ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.TwoPointer.LC16_ThreeSumClosest" />
+    <configuration name="LC17_letterCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Search.LC17_letterCombinations" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.TwoPointer.*" />
+          <option name="PATTERN" value="com.company.Search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,19 +294,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LC16_ThreeSumClosest" />
       <item itemvalue="Application.LC11_MaxArea" />
       <item itemvalue="Application.LC844_BackSpace" />
       <item itemvalue="Application.LC167_TwoSumII" />
       <item itemvalue="Application.LC2_addTwoNumber" />
+      <item itemvalue="Application.LC17_letterCombinations" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC17_letterCombinations" />
         <item itemvalue="Application.LC2_addTwoNumber" />
         <item itemvalue="Application.LC167_TwoSumII" />
         <item itemvalue="Application.LC844_BackSpace" />
         <item itemvalue="Application.LC11_MaxArea" />
-        <item itemvalue="Application.LC16_ThreeSumClosest" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +327,7 @@
     <frame x="0" y="23" width="1440" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -323,7 +336,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329235" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329235" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329235" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -497,8 +510,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Lists/LC24_swapPairs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        <state relative-caret-position="42">
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Search/LC17_letterCombinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
