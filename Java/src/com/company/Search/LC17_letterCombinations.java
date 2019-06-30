@@ -8,41 +8,46 @@ import java.util.List;
     search
     dfs
     backtracking
+    Time O(4^n)
  */
 public class LC17_letterCombinations {
     public List<String> letterCombinations(String digits) {
-        HashMap<Character, String> num_map = new HashMap<>();
-        num_map.put('2',"abc");
-        num_map.put('3',"def");
-        num_map.put('4',"ghi");
-        num_map.put('5',"jkl");
-        num_map.put('6',"mno");
-        num_map.put('7',"pqrs");
-        num_map.put('8',"tuv");
-        num_map.put('9',"wxyz");
+        // corner case
+        if(digits.isEmpty()) return new ArrayList<>();
 
-        List<String> res = new ArrayList<>();
-        if(digits.isEmpty()) return res;
+        // create mapping for numbers and chars
+        HashMap<Character, String> map = new HashMap<>();
+        map.put('2',"abc");
+        map.put('3',"def");
+        map.put('4',"ghi");
+        map.put('5',"jkl");
+        map.put('6',"mno");
+        map.put('7',"pqrs");
+        map.put('8',"tuv");
+        map.put('9',"wxyz");
 
-        char[] cur = new char[digits.length()];
-        dfs(digits, num_map, cur, res, 0);
-        return res;
-
+        List<String> result = new ArrayList<>();
+        char[] curRes = new char[digits.length()];
+        // using dfs to traverse the tree;
+        dfs(digits, map, curRes, result, 1);
+        return result;
     }
 
-    public void dfs(String digits, HashMap<Character, String> dict, char[] cur, List<String> res, int idx){
-        if(idx == digits.length()){
-            res.add(new String(cur));
+    private void dfs(String digits, HashMap<Character, String> map, char[] curRes, List<String> result, int level){
+        // base case, if recurse to the leaf, push the curRes to result list, return.
+        if(level > digits.length()){
+            result.add(new String(curRes));
             return;
         }
-        for(char c : dict.get(digits.charAt(idx)).toCharArray()){
-            cur[idx] = c;
-            dfs(digits, dict, cur, res, idx+1);
+        for(char c : map.get(digits.charAt(level-1)).toCharArray()){
+            curRes[level-1] = c;
+            dfs(digits, map, curRes, result, level+1);
         }
+
     }
 
     public static void main(String[] args) {
-        String digits = "";
+        String digits = "23";
         LC17_letterCombinations L = new LC17_letterCombinations();
         List<String> res = L.letterCombinations(digits);
         System.out.println(res);
