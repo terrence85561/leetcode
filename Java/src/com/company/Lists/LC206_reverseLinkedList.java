@@ -31,8 +31,7 @@ public class LC206_reverseLinkedList {
          */
 
         // base case
-        if (head == null) return null;
-        if (head.next == null) return head;
+        if (head == null || head.next == null) return head;
 
         ListNode reversedListHead = reverseList(head.next);
         ListNode curNode = head.next;

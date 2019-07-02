@@ -24,7 +24,7 @@ public class LC24_swapPairs {
         return dummyhead.next;
     }
     public ListNode swapPairsRec(ListNode head){
-                /*
+        /*
             recursively
         */
         // corner case
