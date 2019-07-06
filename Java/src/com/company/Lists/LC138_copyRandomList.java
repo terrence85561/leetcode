@@ -12,7 +12,7 @@ public class LC138_copyRandomList {
     public Node copyRandomList(Node head) {
         /*
             time O(n)
-            space O(1)
+            space O(n)
          */
         if(head == null) return head;
 
