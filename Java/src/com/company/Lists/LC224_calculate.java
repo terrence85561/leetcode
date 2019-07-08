@@ -4,7 +4,6 @@ import java.util.Stack;
 
 public class LC224_calculate {
     public int calculate(String s) {
-        public int calculate(String s) {
             if(s == null || s.length() == 0) return 0;
 
             int sign = 1;
@@ -40,7 +39,6 @@ public class LC224_calculate {
             return res;
         }
 
-    }
 
     public static void main(String[] args) {
         LC224_calculate L = new LC224_calculate();
