@@ -18,24 +18,16 @@ public class LC215_findKthLargest {
 public int findKthLargest(int[] nums, int k) {
     shuffle(nums);
     int size = nums.length;
-    int res = sort(nums, k, 0, size-1, size);
-    return res;
+    int lo = 0, hi = size - 1;
+    while(lo <= hi){
+        int j = partition(nums, lo, hi);
+        if(k == size - j) return nums[j];
+        else if(k > size - j) hi = j - 1;
+        else if(k < size - j) lo = j + 1;
+    }
+    return 0;
 }
 
-    private int sort(int[] nums, int k, int lo, int hi, int size){
-        while(lo <= hi){
-            int j = partition(nums, lo, hi);
-            if(k == size - j){
-                return nums[j];
-            }else if(k > size - j){
-                hi = j - 1;
-            }else if(k < size - j){
-                lo = j + 1;
-            }
-        }
-        return 0;
-
-    }
 
     private int partition(int[] a, int lo, int hi){
         int pivot = lo;
