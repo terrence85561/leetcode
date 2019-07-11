@@ -12,36 +12,35 @@ import java.util.List;
  */
 public class LC15_ThreeSum {
     public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> result = new ArrayList<>();
-        // corner case
-        if(nums==null || nums.length == 0) return result;
-
-        // sort input
+        if(nums == null || nums.length == 0) return null;
+        List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);
-        int numLength = nums.length;
+        int size = nums.length;
 
         int l,r;
-        for(int i = 0; i < numLength; i++){
-            if(i>=1 && nums[i]==nums[i-1]) continue;
-            l = i+1;
-            r = numLength-1;
-            while(r>l){
-                if(nums[i] + nums[r] + nums[l] > 0){
-                    r--;
-                }
-                else if(nums[i] + nums[r] + nums[l] < 0){
-                    l++;
-                }
+        for(int i = 0; i < size; i++){
+            if(i >= 1 && nums[i] == nums[i-1]) continue;
+            l = i + 1;
+            r = size - 1;
+            while(r > l){
+                List<Integer> temp = new ArrayList<>();
+                if(nums[i] + nums[r] + nums[l] < 0) l++;
+                else if(nums[i] + nums[r] + nums[l] > 0) r--;
                 else{
-                    while(r>l && nums[r]==nums[r-1])r--;
-                    while(r>l && nums[l]==nums[l+1])l++;
-                    result.add(Arrays.asList(nums[i], nums[l], nums[r]));
-                    r--;
+                    temp.add(nums[i]);
+                    temp.add(nums[r]);
+                    temp.add(nums[l]);
+                    res.add(new ArrayList<>(temp));
+                    while(r > l && nums[l] == nums[l+1]) l++;
+                    while(r > l && nums[r] == nums[r-1]) r--;
                     l++;
+                    r--;
                 }
             }
         }
-        return result;
+
+
+        return res;
     }
 
     public static void main(String[] args) {
