@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0ebc9736-f50e-4e14-b580-cfd1aa0d9c18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Tree/ArrayBasedBinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Tree/BinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Tree/RefBasedBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Tree/LC654_constructMaximumBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Tree/LC654_constructMaximumBinaryTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,24 +38,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC654_constructMaximumBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-              <folding>
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#150#151#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Design/LC297_Codec.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC547_findCircleNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+            <state relative-caret-position="330">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC1028_recoverFromPreorder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -79,15 +82,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Design/TreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -142,8 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Lists/LC141_LinkedListCycle.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Lists/LC142_LinkedListCycleII.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lists/LC21_mergeTwoLists.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lists/LC234_palindromLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/company/Search/LC39_combinationSum.java" />
@@ -193,6 +185,8 @@
         <option value="$PROJECT_DIR$/src/com/company/Array/LC48_rotate.java" />
         <option value="$PROJECT_DIR$/src/com/company/Tree/LC236_lowestCommonAncestor.java" />
         <option value="$PROJECT_DIR$/src/com/company/Tree/LC654_constructMaximumBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Graph/LC547_findCircleNum.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Tree/LC1028_recoverFromPreorder.java" />
       </list>
     </option>
   </component>
@@ -231,21 +225,7 @@
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="SlidingWindow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="Tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="TwoPointer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC48_rotate">
+  <component name="RunManager" selected="Application.LC547_findCircleNum">
     <configuration name="LC15_ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.TwoPointer.LC15_ThreeSum" />
       <module name="Java" />
@@ -322,12 +302,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RefBasedBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Tree.RefBasedBinaryTree" />
+    <configuration name="LC547_findCircleNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Graph.LC547_findCircleNum" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Tree.*" />
+          <option name="PATTERN" value="com.company.Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,19 +330,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LC17_letterCombinations" />
-      <item itemvalue="Application.RefBasedBinaryTree" />
       <item itemvalue="Application.LC297_Codec" />
       <item itemvalue="Application.Temp" />
       <item itemvalue="Application.LC15_ThreeSum" />
       <item itemvalue="Application.LC48_rotate" />
+      <item itemvalue="Application.LC547_findCircleNum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC547_findCircleNum" />
         <item itemvalue="Application.LC48_rotate" />
         <item itemvalue="Application.LC15_ThreeSum" />
         <item itemvalue="Application.Temp" />
         <item itemvalue="Application.LC297_Codec" />
-        <item itemvalue="Application.RefBasedBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -418,20 +398,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/TwoPointer/LC125_IsPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Lists/LC2_addTwoNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="41" selection-start-line="41" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Lists/LC445_addTwoNumberII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -815,12 +781,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC654_constructMaximumBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC547_findCircleNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC1028_recoverFromPreorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
