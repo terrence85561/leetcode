@@ -15,7 +15,6 @@ public class LC72_minDistance {
         // transition
         for(int i = 1; i <= size1; i++){
             for(int j = 1; j <= size2; j++){
-                dist[i][j] = Integer.MAX_VALUE;
                 if(word1.charAt(i-1) == word2.charAt(j-1)){
                     dist[i][j] = Math.min(Math.min(dist[i-1][j-1], dist[i-1][j] + 1), dist[i][j-1] + 1);
                 }else{

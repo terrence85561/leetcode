@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ebc9736-f50e-4e14-b580-cfd1aa0d9c18" name="Default Changelist" comment="" />
+    <list default="true" id="0ebc9736-f50e-4e14-b580-cfd1aa0d9c18" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/company/DynamicProgramming/LC583_minDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/company/DynamicProgramming/LC583_minDistance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/com/company/DynamicProgramming/LC72_minDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/company/DynamicProgramming/LC72_minDistance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DynamicProgramming/LC72_minDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DynamicProgramming/LC72_minDistance.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +43,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/DynamicProgramming/LC72_minDistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="78" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC207_canFinish.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC210_findOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/DynamicProgramming/LC583_minDistance.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -66,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC547_findCircleNum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -85,18 +111,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="3" selection-start-line="3" selection-end-line="6" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC589_preorder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -121,8 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Search/LC39_combinationSum.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Lists/LC92_reverseLinkedlistII.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lists/LC206_reverseLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lists/LC24_swapPairs.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lists/LC160_getIntersectionNode.java" />
@@ -170,12 +182,14 @@
         <option value="$PROJECT_DIR$/src/com/company/Tree/LC654_constructMaximumBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/com/company/Graph/LC547_findCircleNum.java" />
         <option value="$PROJECT_DIR$/src/com/company/Tree/LC1028_recoverFromPreorder.java" />
-        <option value="$PROJECT_DIR$/src/com/company/DynamicProgramming/LC72_minDistance.java" />
         <option value="$PROJECT_DIR$/src/com/company/DynamicProgramming/LC583_minDistance.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DynamicProgramming/LC72_minDistance.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Graph/LC207_canFinish.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Graph/LC210_findOrder.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="824" />
@@ -218,6 +232,13 @@
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="SlidingWindow" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -242,13 +263,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC583_minDistance">
-    <configuration name="LC15_ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.TwoPointer.LC15_ThreeSum" />
+  <component name="RunManager" selected="Application.LC207_canFinish">
+    <configuration name="LC17_letterCombinations" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Search.LC17_letterCombinations" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.TwoPointer.*" />
+          <option name="PATTERN" value="com.company.Search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,12 +277,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC17_letterCombinations" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Search.LC17_letterCombinations" />
+    <configuration name="LC207_canFinish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Graph.LC207_canFinish" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Search.*" />
+          <option name="PATTERN" value="com.company.Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,19 +344,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LC17_letterCombinations" />
-      <item itemvalue="Application.LC15_ThreeSum" />
       <item itemvalue="Application.LC48_rotate" />
       <item itemvalue="Application.LC547_findCircleNum" />
       <item itemvalue="Application.LC72_minDistance" />
       <item itemvalue="Application.LC583_minDistance" />
+      <item itemvalue="Application.LC207_canFinish" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC207_canFinish" />
         <item itemvalue="Application.LC583_minDistance" />
         <item itemvalue="Application.LC72_minDistance" />
         <item itemvalue="Application.LC547_findCircleNum" />
         <item itemvalue="Application.LC48_rotate" />
-        <item itemvalue="Application.LC15_ThreeSum" />
       </list>
     </recent_temporary>
   </component>
@@ -353,10 +374,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25178826" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25178826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -365,7 +386,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329235" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28674698" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28674698" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989071" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,20 +412,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Lists/LC234_palindromLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Lists/LC206_reverseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Lists/LC24_swapPairs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -751,7 +758,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC547_findCircleNum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -776,17 +783,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/DynamicProgramming/LC72_minDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="78" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/DynamicProgramming/LC583_minDistance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DynamicProgramming/LC72_minDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC207_canFinish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC210_findOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
