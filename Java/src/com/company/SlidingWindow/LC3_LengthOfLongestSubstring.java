@@ -1,7 +1,9 @@
 package com.company.SlidingWindow;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 public class LC3_LengthOfLongestSubstring {
     /*
@@ -10,7 +12,7 @@ public class LC3_LengthOfLongestSubstring {
      */
     public int lengthOfLongestSubstring(String s) {
         // corner case
-        if(s==null || s.length()==0){
+        if(s == null || s.length() == 0){
             return 0;
         }
         // create hash
@@ -34,7 +36,7 @@ public class LC3_LengthOfLongestSubstring {
 
     public int lengthOfLongestSubstringWithHashMap(String s) {
         // corner case
-        if(s==null || s.length()==0)return 0;
+        if(s == null || s.length() == 0) return 0;
 
         // create hashMap
         Map<Character, Integer> hash = new HashMap<>();
@@ -51,6 +53,28 @@ public class LC3_LengthOfLongestSubstring {
             maxCount = Math.max(maxCount, i - l + 1);
         }
         return maxCount;
+    }
+
+    public int lengthOfLongestSubstringWithHashSet(String s){
+        // corner case
+        if(s == null || s.length() == 0) return 0;
+
+        // create hashset
+        Set<Character> hash = new HashSet<>();
+
+        // sliding window
+        int l = 0;
+        int maxCount = 1;
+        for(int i = 0; i < s.length(); i++){
+            while(hash.contains(s.charAt(i))){
+                hash.remove(s.charAt(l++));
+            }
+            hash.add(s.charAt(i));
+            maxCount = Math.max(maxCount, i - l + 1);
+        }
+        return maxCount;
+
+
     }
 
 

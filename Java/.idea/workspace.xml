@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ebc9736-f50e-4e14-b580-cfd1aa0d9c18" name="Default Changelist" comment="" />
+    <list default="true" id="0ebc9736-f50e-4e14-b580-cfd1aa0d9c18" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SlidingWindow/LC3_LengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SlidingWindow/LC3_LengthOfLongestSubstring.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +38,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC207_canFinish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
+            <state relative-caret-position="915">
               <caret line="61" selection-start-line="61" selection-end-line="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/SlidingWindow/LC3_LengthOfLongestSubstring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -72,15 +84,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC654_constructMaximumBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC547_findCircleNum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -89,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC200_numIslands.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="320">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -127,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Lists/LC24_swapPairs.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lists/LC160_getIntersectionNode.java" />
         <option value="$PROJECT_DIR$/src/com/company/Search/FindPrimutation.java" />
         <option value="$PROJECT_DIR$/src/com/company/Search/LC40_combinatiionSumII.java" />
@@ -178,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/com/company/Graph/LC207_canFinish.java" />
         <option value="$PROJECT_DIR$/src/com/company/Graph/LC210_findOrder.java" />
         <option value="$PROJECT_DIR$/src/com/company/Graph/LC200_numIslands.java" />
+        <option value="$PROJECT_DIR$/src/com/company/SlidingWindow/LC3_LengthOfLongestSubstring.java" />
       </list>
     </option>
   </component>
@@ -225,13 +228,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="DynamicProgramming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
@@ -383,7 +379,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25178826" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25178826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -392,7 +388,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329235" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28674698" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28674698" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989071" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -761,13 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/SlidingWindow/LC3_LengthOfLongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/DynamicProgramming/LC583_minDistance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -779,13 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC207_canFinish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
@@ -815,8 +797,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC200_numIslands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="320">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC207_canFinish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SlidingWindow/LC3_LengthOfLongestSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
         </state>
       </provider>
     </entry>
