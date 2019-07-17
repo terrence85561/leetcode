@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ebc9736-f50e-4e14-b580-cfd1aa0d9c18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/com/company/DynamicProgramming/LC583_minDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/company/DynamicProgramming/LC583_minDistance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/com/company/DynamicProgramming/LC72_minDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/com/company/DynamicProgramming/LC72_minDistance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DynamicProgramming/LC72_minDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DynamicProgramming/LC72_minDistance.java" afterDir="false" />
-    </list>
+    <list default="true" id="0ebc9736-f50e-4e14-b580-cfd1aa0d9c18" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,18 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC94_inorderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC236_lowestCommonAncestor.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC210_findOrder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
@@ -66,6 +49,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Array/LC48_rotate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-159">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -97,20 +89,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC1028_recoverFromPreorder.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC200_numIslands.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Tree/TreeNode.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC1028_recoverFromPreorder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="3" selection-start-line="3" selection-end-line="6" selection-end-column="32" />
+            <state relative-caret-position="374">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -135,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Lists/LC206_reverseLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lists/LC24_swapPairs.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lists/LC160_getIntersectionNode.java" />
         <option value="$PROJECT_DIR$/src/com/company/Search/FindPrimutation.java" />
@@ -186,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/com/company/DynamicProgramming/LC72_minDistance.java" />
         <option value="$PROJECT_DIR$/src/com/company/Graph/LC207_canFinish.java" />
         <option value="$PROJECT_DIR$/src/com/company/Graph/LC210_findOrder.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Graph/LC200_numIslands.java" />
       </list>
     </option>
   </component>
@@ -225,6 +217,13 @@
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="Array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="DynamicProgramming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -233,6 +232,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="Graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
@@ -263,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC207_canFinish">
+  <component name="RunManager" selected="Application.LC200_numIslands">
     <configuration name="LC17_letterCombinations" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Search.LC17_letterCombinations" />
       <module name="Java" />
@@ -277,8 +283,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC207_canFinish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Graph.LC207_canFinish" />
+    <configuration name="LC200_numIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Graph.LC200_numIslands" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -290,12 +296,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC48_rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Array.LC48_rotate" />
+    <configuration name="LC207_canFinish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Graph.LC207_canFinish" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Array.*" />
+          <option name="PATTERN" value="com.company.Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,19 +350,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LC17_letterCombinations" />
-      <item itemvalue="Application.LC48_rotate" />
       <item itemvalue="Application.LC547_findCircleNum" />
       <item itemvalue="Application.LC72_minDistance" />
       <item itemvalue="Application.LC583_minDistance" />
       <item itemvalue="Application.LC207_canFinish" />
+      <item itemvalue="Application.LC200_numIslands" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC200_numIslands" />
         <item itemvalue="Application.LC207_canFinish" />
         <item itemvalue="Application.LC583_minDistance" />
         <item itemvalue="Application.LC72_minDistance" />
         <item itemvalue="Application.LC547_findCircleNum" />
-        <item itemvalue="Application.LC48_rotate" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +383,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25178826" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25178826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -386,7 +392,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329235" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28674698" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28674698" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989071" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,13 +418,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Lists/LC24_swapPairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Lists/LC160_getIntersectionNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -707,13 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Array/LC48_rotate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Tree/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -752,13 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC547_findCircleNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -811,6 +796,27 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Array/LC48_rotate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC547_findCircleNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC200_numIslands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
