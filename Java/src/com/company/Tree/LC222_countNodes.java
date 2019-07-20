@@ -8,10 +8,8 @@ public class LC222_countNodes {
         if(root == null) return 0;
 
         TreeNode node = root;
-        while(node.left != null){
-            tree_depth ++;
-            node = node.left;
-        }
+
+        tree_depth = getMostDepth(node, tree_depth);
 
         res += (1 << tree_depth) - 1  ;
 
@@ -36,10 +34,7 @@ public class LC222_countNodes {
         TreeNode temp = root.right;
         int cur_depth = start_depth + 1;
 
-        while(temp.left != null){
-            cur_depth ++ ;
-            temp = temp.left;
-        }
+        cur_depth = getMostDepth(temp, cur_depth);
 
         if(cur_depth == tree_depth){
             res += 1 << (tree_depth - start_depth - 1 );
@@ -48,5 +43,13 @@ public class LC222_countNodes {
             dfs(root.left, start_depth + 1);
 
         }
+    }
+
+    private int getMostDepth(TreeNode node, int depth){
+        while(node.left != null){
+            depth ++;
+            node = node.left;
+        }
+        return depth;
     }
 }

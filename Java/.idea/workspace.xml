@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ebc9736-f50e-4e14-b580-cfd1aa0d9c18" name="Default Changelist" comment="" />
+    <list default="true" id="0ebc9736-f50e-4e14-b580-cfd1aa0d9c18" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/company/Tree/LC222_countNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Tree/LC222_countNodes.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,32 +61,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC222_countNodes.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Lists/LC147_insertionSortList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Graph/LC210_findOrder.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Lists/LC1054_rearrangeBarcodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state relative-caret-position="350">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Array/LC48_rotate.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC222_countNodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-159">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="795">
+              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -127,8 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Search/FindPermutation.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Search/FindCombination.java" />
         <option value="$PROJECT_DIR$/src/com/company/Search/LC77_combination.java" />
         <option value="$PROJECT_DIR$/src/com/company/Search/LC17_letterCombinations.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lists/ListNode.java" />
@@ -178,6 +180,8 @@
         <option value="$PROJECT_DIR$/src/com/company/DynamicProgramming/LC5_longestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/com/company/Tree/LC687_longestUnivaluePath.java" />
         <option value="$PROJECT_DIR$/src/com/company/Tree/LC222_countNodes.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Lists/LC147_insertionSortList.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Lists/LC1054_rearrangeBarcodes.java" />
       </list>
     </option>
   </component>
@@ -217,6 +221,13 @@
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -241,7 +252,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC5_longestPalindrome">
+  <component name="RunManager" selected="Application.LC1054_rearrangeBarcodes">
+    <configuration name="LC1054_rearrangeBarcodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lists.LC1054_rearrangeBarcodes" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LC17_letterCombinations" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Search.LC17_letterCombinations" />
       <module name="Java" />
@@ -307,34 +331,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC72_minDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.DynamicProgramming.LC72_minDistance" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.DynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.LC17_letterCombinations" />
-      <item itemvalue="Application.LC72_minDistance" />
       <item itemvalue="Application.LC583_minDistance" />
       <item itemvalue="Application.LC207_canFinish" />
       <item itemvalue="Application.LC200_numIslands" />
       <item itemvalue="Application.LC5_longestPalindrome" />
+      <item itemvalue="Application.LC1054_rearrangeBarcodes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC1054_rearrangeBarcodes" />
         <item itemvalue="Application.LC5_longestPalindrome" />
         <item itemvalue="Application.LC200_numIslands" />
         <item itemvalue="Application.LC207_canFinish" />
         <item itemvalue="Application.LC583_minDistance" />
-        <item itemvalue="Application.LC72_minDistance" />
       </list>
     </recent_temporary>
   </component>
@@ -390,8 +401,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Lists/MT2Q2.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Lists/MTException.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Lists/ClothingItemList.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Lists/ClothingItem.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Search/LC77_combination.java">
@@ -775,6 +784,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC222_countNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC687_longestUnivaluePath.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -782,10 +798,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC222_countNodes.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Lists/LC147_insertionSortList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Lists/LC1054_rearrangeBarcodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
