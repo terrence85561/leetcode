@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FindCombination {
-    public List<List<Character>> findCombination(String digits, int select){
+    public List<List<Character>> findCombination(String digits, int select) {
+
         List<List<Character>> res = new ArrayList<>();
         List<Character> cur = new ArrayList<>();
         dfs(digits, select, res, cur, 0, 0);
@@ -12,18 +13,18 @@ public class FindCombination {
     }
 
     private void dfs(String digits, int select, List<List<Character>> res, List<Character> cur, int level, int start){
-        // base case
         if(level == select){
             res.add(new ArrayList<>(cur));
             return;
         }
+
         for(int i = start; i < digits.length(); i++){
             cur.add(digits.charAt(i));
             dfs(digits, select, res, cur, level+1, i+1);
             cur.remove(cur.size()-1);
         }
-
     }
+
 
     public static void main(String[] args) {
         FindCombination F = new FindCombination();
