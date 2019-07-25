@@ -17,7 +17,7 @@ public class LC392_isSubsequence {
         return true;
 
     }
-    
+
     //     two ptrs
     //       public boolean isSubsequence(String s, String t) {
 //         if(s.length() == 0) return true;
