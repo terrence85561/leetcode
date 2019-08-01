@@ -6,6 +6,7 @@ public class LC473_makesquare {
     public boolean makesquare(int[] nums) {
         /*
             算每条边应该的长度，来存状态
+            https://www.youtube.com/watch?v=Z8cz4Wb5P2g
         */
 
         if(nums == null || nums.length == 0 || nums.length < 4) return false;
