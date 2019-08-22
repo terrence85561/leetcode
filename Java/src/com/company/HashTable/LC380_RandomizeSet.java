@@ -28,11 +28,9 @@ public class LC380_RandomizeSet {
     public boolean remove(int val) {
         if(!map.containsKey(val)) return false;
         int idx = map.get(val);
-        if(idx < size-1){
-            int last = arr.get(size-1);
-            arr.set(idx, last);
-            map.put(last, idx);
-        }
+        int last = arr.get(size-1);
+        arr.set(idx, last);
+        map.put(last, idx);
         map.remove(val);
         arr.remove(size-1);
         size--;
