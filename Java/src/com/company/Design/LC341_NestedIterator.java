@@ -1,6 +1,7 @@
 package com.company.Design;
 
 import java.util.Iterator;
+import java.util.List;
 import java.util.Stack;
 
 public class LC341_NestedIterator implements Iterator<Integer> {
