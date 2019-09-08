@@ -4,7 +4,7 @@ public class LC34_searchRange {
     public int[] searchRange(int[] nums, int target) {
         /*
             binary seach
-            
+
          */
         int min = -1;
         int max = -1;
