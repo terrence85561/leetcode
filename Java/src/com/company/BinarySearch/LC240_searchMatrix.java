@@ -9,17 +9,16 @@ public class LC240_searchMatrix {
         */
 
         if(m == null || m.length == 0) return false;
-        int row_size = m.length;
         int col_size = m[0].length;
+        int row_size = m.length;
+
         int col = col_size - 1;
         int row = 0;
-        while(row < row_size && col >= 0){
-            if(m[row][col] == target)return true;
-            else if(m[row][col] > target){
-                col--;
-            }else{
-                row++;
-            }
+
+        while(col >= 0 && row < row_size){
+            if(m[row][col] == target) return true;
+            else if(m[row][col] > target) col--;
+            else row++;
         }
         return false;
     }
