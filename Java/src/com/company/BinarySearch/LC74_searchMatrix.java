@@ -1,4 +1,4 @@
-package com.company.Array;
+package com.company.BinarySearch;
 
 public class LC74_searchMatrix {
     public boolean searchMatrix(int[][] m, int t) {
