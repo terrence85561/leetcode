@@ -9,15 +9,7 @@ public class LC347_topKfrequency_bucketSort {
     public List<Integer> topKFrequent(int[] nums, int k) {
         /*
             bucket sort
-
-            eg:
-                input [1,1,1,2,2,3]
-
-                hashmap {{1, 3}, {2, 2}, {3,1}}
-
-                bucket [ [],  [3],  [2], [1] ]
         */
-
         Map<Integer, Integer> map = new HashMap<>();
         for(int i = 0; i < nums.length; i++){
             map.put(nums[i], map.getOrDefault(nums[i], 0)+1);
@@ -29,7 +21,6 @@ public class LC347_topKfrequency_bucketSort {
             }
             bucket[entry.getValue()].add(entry.getKey());
         }
-
         List<Integer> res = new LinkedList<>();
         for(int i = bucket.length-1; i > 0 && res.size() < k; i--){
             if(bucket[i] != null){
@@ -37,6 +28,5 @@ public class LC347_topKfrequency_bucketSort {
             }
         }
         return res;
-
     }
 }
