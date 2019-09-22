@@ -17,15 +17,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Array/LC495_findPoisonedDuration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/HashTable/LC347_topKfrequency.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -94,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Array/LC560_subarraySum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,10 +98,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Array/LC56_merge.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC105_buildTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="255">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC106_buildTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -139,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Tree/LC90_recoverTree.java" />
         <option value="$PROJECT_DIR$/src/com/company/Math/LC223_computeArea.java" />
         <option value="$PROJECT_DIR$/src/com/company/Math/LC319_bulbSwitch.java" />
         <option value="$PROJECT_DIR$/src/com/company/Tree/LC108_sortedArraytoBst.java" />
@@ -190,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/com/company/Search/LC78_subsets.java" />
         <option value="$PROJECT_DIR$/src/com/company/Math/LC43_multiply.java" />
         <option value="$PROJECT_DIR$/src/com/company/Array/LC560_subarraySum.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Tree/LC105_buildTree.java" />
       </list>
     </option>
   </component>
@@ -234,7 +234,7 @@
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="HashTable" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -420,20 +420,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Recursion/LC91_numDecoding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Array/LC283_moveZeros.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/String/LC412_fizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -812,10 +798,24 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/Array/LC560_subarraySum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC105_buildTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Tree/LC106_buildTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>

@@ -10,7 +10,7 @@ public class LC560_subarraySum {
             use hashmap to store the frequency of each prefix_sum
             key - prefix_sum
             value - frequency of this prefix_sum
-            
+
          */
         int[] prefix_sum = new int[nums.length+1];
         int sum = 0;
