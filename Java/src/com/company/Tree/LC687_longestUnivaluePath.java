@@ -2,7 +2,7 @@ package com.company.Tree;
 
 public class LC687_longestUnivaluePath {
 
-    private int max = 0;
+    int max = 0;
     public int longestUnivaluePath(TreeNode root) {
         if(root == null) return 0;
         dfs(root);
