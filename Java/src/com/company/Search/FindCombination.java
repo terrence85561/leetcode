@@ -1,6 +1,7 @@
 package com.company.Search;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class FindCombination {
@@ -18,10 +19,11 @@ public class FindCombination {
         for(int i = start; i < digits.length(); i++){
             cur.add(digits.charAt(i));
             dfs(digits, select, res, cur, level+1, i+1);
+            System.out.println(cur.toString());
             cur.remove(cur.size()-1);
         }
     }
-
+    
 
     public static void main(String[] args) {
         FindCombination F = new FindCombination();

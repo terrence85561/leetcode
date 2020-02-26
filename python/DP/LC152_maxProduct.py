@@ -10,14 +10,23 @@
 #         return high
 
         
-        dp = [()] * len(nums)
-        dp[0] = (nums[0], nums[0])
-        val = nums[0]
+#         dp = [()] * len(nums)
+#         dp[0] = (nums[0], nums[0])
+#         val = nums[0]
         
-        for i in range(1, len(nums)):
-            cur_max = max(nums[i], max(nums[i]*dp[i-1][0], nums[i]*dp[i-1][1]))
-            cur_min = min(nums[i], min(nums[i]*dp[i-1][0], nums[i]*dp[i-1][1]))
-            dp[i] = (cur_max, cur_min)
-            val = max(cur_max, val)
+#         for i in range(1, len(nums)):
+#             cur_max = max(nums[i], max(nums[i]*dp[i-1][0], nums[i]*dp[i-1][1]))
+#             cur_min = min(nums[i], min(nums[i]*dp[i-1][0], nums[i]*dp[i-1][1]))
+#             dp[i] = (cur_max, cur_min)
+#             val = max(cur_max, val)
             
+#         return val
+        val = nums[0]
+        cur_max = val
+        cur_min = val
+        for i in range(1, len(nums)):
+            temp_cur_max = cur_max
+            cur_max = max(nums[i], max(nums[i]*temp_cur_max, nums[i]*cur_min))
+            cur_min = min(nums[i], min(nums[i]*temp_cur_max, nums[i]*cur_min))            
+            val = max(cur_max,max(temp_cur_max, val))
         return val

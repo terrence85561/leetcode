@@ -5,7 +5,10 @@ import java.util.List;
 /*
     lc 2
     linked list
+    7 - 8 - 2
+    3 - 1 - 3
  */
+
 public class LC2_addTwoNumber {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
