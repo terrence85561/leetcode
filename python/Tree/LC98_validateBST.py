@@ -41,7 +41,22 @@ class Solution:
         return True
 
 
+class Solution:
+    last_node = None
+    isValid = True
 
+    def isValidBST(self, root: TreeNode) -> bool:
+        self.inOrder(root)
+        return self.isValid
+
+    def inOrder(self, root):
+        if not root:
+            return
+        self.inOrder(root.left)
+        if self.last_node and self.last_node.val >= root.val:
+            self.isValid = False
+        self.last_node = root
+        self.inOrder(root.right)
 
 
 class Solution:
