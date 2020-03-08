@@ -1,80 +1,77 @@
 class Solution:
-    #     def findItinerary(self, tickets: List[List[str]]) -> List[str]:
-
-    #         g = dict()
-    #         for ticket in tickets:
-    #             src = ticket[0]
-    #             des = ticket[1]
-    #             if src in g:
-    #                 g[src].append(des)
-    #             else:
-    #                 g[src] = [des]
-
-    #         for key in g:
-    #             g[key] = sorted(g[key])
-
-    #         res=['JFK']
-    #         total_length = len(tickets)+1
-
-    #         def dfs(g, curr, path,  total_length):
-    #             if len(path) == total_length:
-    #                 return True
-    #             if curr not in g or len(g[curr]) == 0:
-    #                 return False
-
-    #             des_list = g[curr]
-    #             for i in range (len(des_list)):
-    #                 des = des_list[i]
-    #                 path.append(des)
-    #                 des_list.remove(des)
-    #                 if dfs(g, des, path, total_length):
-    #                     return True
-    #                 path.pop()
-    #                 des_list.insert(i, des)
-
-    #         if dfs(g, 'JFK', res, total_length):
-    #             return res
-    #         return None
-    def findItinerary(self, tickets: List[List[str]]) -> List[str]:
-
-        g = dict()
+    def findItineraryHierholzerAlgorithm(self, tickets: List[List[str]]) -> List[str]:
+        graph = {}
         for ticket in tickets:
-            #O(n)
+            # O(n)
             src = ticket[0]
             des = ticket[1]
-            if src in g:
-                g[src].append(des)
+            if src in graph:
+                graph[src].append(des)
             else:
-                g[src] = [des]
+                graph[src] = [des]
+
+        for key in graph:
+            # O(nlogn)
+            graph[key] = sorted(graph[key], reverse=True)
+
+        path = []
+
+        def dfs(graph, path, src):
+            # O(n) time, traverse each edge once
+            if src not in graph:
+                des_list = None
+            else:
+                des_list = graph[src]
+            while des_list:
+                nextDes = des_list.pop()
+                dfs(graph, path, nextDes)
+
+            path.append(src)
+
+        dfs(graph, path, 'JFK')
+        return path[::-1]
+    def findItinerary(self, tickets: List[List[str]]) -> List[str]:
+        graph = {}
+        for ticket in tickets:
+            # O(n)
+            src = ticket[0]
+            des = ticket[1]
+            if src in graph:
+                graph[src].append(des)
+            else:
+                graph[src] = [des]
 
         visit = {}
-        for key in g:
-            #O(n*nlogn)
-            g[key] = sorted(g[key])
-            visit[key] = [False] * len(g[key])
+        for key in graph:
+            # O(nlogn)
+            visit[key] = [False] * len(graph[key])
+            graph[key] = sorted(graph[key])
 
-        res = ['JFK']
-        total_length = len(tickets)+1
+        path = ['JFK']
+        l = len(tickets) + 1
 
-        def dfs(g, visit, curr, path,  total_length):
-            #O(n!)
-            if len(path) == total_length:
+        def dfs(graph, visit, l, path, cur):
+            # O(n!)
+            if len(path) == l:
                 return True
-            if curr not in g or len(g[curr]) == 0:
+            if cur not in graph:
                 return False
 
-            des_list = g[curr]
-            for i in range(len(des_list)):
-                if visit[curr][i]:
+            for i in range(len(graph[cur])):
+                des = graph[cur][i]
+                if visit[cur][i]:
                     continue
-                des = des_list[i]
-                path.append(des)
-                visit[curr][i] = True
-                if dfs(g, visit, des, path, total_length):
-                    return True
-                path.pop()
-                visit[curr][i] = False
 
-        if dfs(g, visit, 'JFK', res, total_length):
-            return res
+                visit[cur][i] = True
+                path.append(des)
+
+                if dfs(graph, visit, l, path, des):
+                    return path
+
+                path.pop()
+                visit[cur][i] = False
+            return False
+
+        if dfs(graph, visit, l, path, 'JFK'):
+            return path
         return None
