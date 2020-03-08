@@ -18,6 +18,26 @@ class Solution:
         #         if j+nums[i-1] <= 2*offset:
         #             dp[i][j] += dp[i-1][j+nums[i-1]]
         # return dp[len(nums)][S+offset]
+    #     def findTargetSumWays(self, nums: List[int], S: int) -> int:
+#         # O(l*n) time O(n) space
+#         offset = 0
+#         for num in nums:
+#             offset += num
+#         if (offset < S):
+#             return 0
+#         dp = [0 for i in range(2*offset+1)]
+        
+#         dp[offset] = 1
+#         for i in range(1, len(nums)+1):
+#             temp = [0 for i in range(2*offset+1)]
+#             for j in range(2*offset+1):
+#                 if j-nums[i-1] >= 0:
+#                     temp[j] += dp[j-nums[i-1]]
+#                 if j+nums[i-1] <= 2*offset:
+#                     temp[j] += dp[j+nums[i-1]]
+            
+#             dp = temp
+#         return dp[S+offset]
     def findTargetSumWays(self, nums: List[int], S: int) -> int:
         # recursion with memorization
         # bottom up
