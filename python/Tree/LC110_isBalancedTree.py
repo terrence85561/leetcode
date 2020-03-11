@@ -1,19 +1,40 @@
 class Solution:
     def isBalanced(self, root: TreeNode) -> bool:
-        #         O(n^2) recalculated the maxDepthh of each node
-        #         if not root:
-        #             return True
-        #         leftDepth = self.maxDepth(root.left)
-        #         rightDepth = self.maxDepth(root.right)
-        #         if abs(leftDepth-rightDepth) <= 1 and self.isBalanced(root.left) and self.isBalanced(root.right):
-        #             return True
-        #         else:
-        #             return False
+            # bottom up, O(n) time
 
-        #     def maxDepth(self, root):
-        #         if not root:
-        #             return 0
-        #         return max(self.maxDepth(root.left), self.maxDepth(root.right))+1
+        def getHeight(root):
+            if not root:
+                return True, -1
+            leftisbalance, leftheight = getHeight(root.left)
+            if not leftisbalance:
+                return False, 0
+            rightisbalance, rightheight = getHeight(root.right)
+            if not rightisbalance:
+                return False, 0
+            return abs(rightheight-leftheight) <= 1, 1+max(rightheight, leftheight)
+        return getHeight(root)[0]
+        
+    def isBalanced(self, root: TreeNode) -> bool:
+        #         O(n^2) recalculated the maxDepthh of each node
+        # top-down
+        # if not root:
+        #     return True
+        # # Height of a node - No. of edges on longest path from that node to the farthest leaf.
+
+        # # Depth - No. of edges on the path from that node to the root.
+
+        # # Height of tree is, Height of ROOT.
+
+        # # Depth of tree is, maximum depth in the tree.
+        # def getHeight(root):
+        #     if not root:
+        #         return -1
+        #     return 1+max(getHeight(root.left), getHeight(root.right))
+        # left = getHeight(root.left)
+        # right = getHeight(root.right)
+        # return abs(left-right) <= 1 and self.isBalanced(root.left) and self.isBalanced(root.right)
+
+
 
         #       O(n)
         return self.maxDepth(root) != -1
